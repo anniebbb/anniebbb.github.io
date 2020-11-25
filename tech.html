@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 1</title>
+
+    <div style="background-image: url('./images.jpg'); background-size: 100% 100%; width:1350px; height:662px";>
+    <div><style>
+        ul {
+          
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #78b8e0;
+        }
+</style>
+
+        
+        <ul>
+          <li style="float:right"><a href="#contact">Contact</a></li>
+          <li style="float:right"><a href="#news">News</a></li>
+          <li style="float:right"><a href="#about">Experience</a></li>
+          <li style="float:right" onclick="window.location.href='./index.html'";><a class="active" href="#home">Home</a></li>
+        </ul>
+        </div>
+    </head>
+    <body>
+    
+</body>
+</html>
